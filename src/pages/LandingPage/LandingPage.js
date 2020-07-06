@@ -7,8 +7,12 @@ import Header from '../../components/Header/Header';
 export default function LandingPage() {
     return (
         <div>
-        
-            <h1>landing page is working</h1>
+            <Header />
+                <section id="landingPage-main">
+                    <div className="container">
+                        <h1>landing page is working</h1>
+                    </div>
+                </section>
         </div>
     )
 }

@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+
+// components
+import Header from '../../components/Header/Header';
 
 export default function Shoes() {
     return (
         <div>
-            <h1>shirts page is working</h1>
+            <Header />
+                <section id="shoes-main">
+                    <div className="container">
+                        <h1>shoes page is working</h1>
+                    </div>
+                </section>
         </div>
     )
-}
+};
