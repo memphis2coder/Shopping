@@ -19,6 +19,7 @@ export default function Header() {
                             <Nav.Link className="nav-link" href="/shirts">Shirts</Nav.Link>
                             <Nav.Link className="nav-link" href="/pants">Pants</Nav.Link>
                             <Nav.Link className="nav-link" href="/shoes">Shoes</Nav.Link>
+                            <Nav.Link className="nav-link" href="/cart">Cart</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
